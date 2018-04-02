@@ -22,7 +22,6 @@
     </distributionManagement>
 
     <properties>
-        <jclouds.version>2.1.0</jclouds.version>
         <rundeck.version>2.10.7</rundeck.version>
     </properties>
 
@@ -140,13 +139,6 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>jclouds-snapshots</id>
-            <url>https://repository.apache.org/content/repositories/snapshots</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
         <repository>
             <id>personal-nexus</id>
             <url>http://nexus.macgenius.io/nexus/content/repositories/snapshots</url>
