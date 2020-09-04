@@ -6,6 +6,12 @@ This is a plugin allows you to create, delete, and view your Digital Ocean dropl
 
 ## Configuration
 
+### Requirements
+The following packages must be installed on your system before you can generate the jar file.
+
+- make
+- maven
+
 ### Installation
 
 Clone this repo and run `make`. Then copy `target/rundeck-digitalocean-plugin-x.x.x.jar` into the `libext` folder
